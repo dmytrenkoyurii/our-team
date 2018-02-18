@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Our Team</title> <!--Заголовок для пошукових систем-->
+	<meta charset="UTF-8"> <!--Формат перетворення Юнікоду-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Всегда использует последний доступный стандартный режим отображения-->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!--Типичный сайт, оптимизированный для мобильных устройств-->
+	<link rel="stylesheet" type="text/css" href="style.css"/> <!--Стилі-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800" rel="stylesheet">
+</head>
+<body>
+	<div class="card">
+		<div class="card__head">
+			<p class="card__head--p">THE GENIUSES BEHIND OUR WORK</p>
+			<h1 class="card__head--h">OUR TEAM</h1>
+			<div class="card__head--line"></div>
+		</div>
+		<div class="card__human">
+			<div class="human">
+				<img class="human__foto" id="face" src="img/foto.png" border="1">
+			</div>
+			<div class="human--line"></div>
+			<div class="human__info">
+				<h1 class="human__info--name">Sahariar Kabir</h1>
+				<div class="human__info--line"></div>
+				<p class="human__info--profession">Frontend Developer</p>
+				<div class="human__info--social">
+				<a href="https://www.facebook.com"><img class="human__info--socialbtn" src="img/facebook.png" alt="facebook"></a>
+				<a href="https://twitter.com"><img class="human__info--socialbtn" src="img/twitter.png" alt="twitter"></a>
+				<a href="https://plus.google.com"><img class="human__info--socialbtn" src="img/google+.png" alt="google+"></a>
+				<a href="https://www.linkedin.com/"><img class="human__info--socialbtn" src="img/linkedin.png" alt="linkedin"></a>
+				</div>
+				<p class="human__info--info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus dui sit amet ligula efficitur, sit amet lacinia massa dictum. Etiam accumsan felis a nunc facilisis, ut euismod lacus placerat. Praesent rutrum eget massa a convallis. Nam vitae augue malesuada, accumsan mauris ut, consectetur.</p>
+				<div class="human__info--downline"></div>
+				<div class="human__info--btn"><button>VIEW PROFILE</button></div>
+			</div>
+		</div>
+		<div class="slider">
+		<div class="slider__btn" onclick="document.getElementById('face').src='img/foto.png'"></div>
+        <div class="slider__btn" onclick="document.getElementById('face').src='img/.png'"></div>
+        <div class="slider__btn" onclick="document.getElementById('face').src='img/.png'"></div>
+		</div>
+	</div>
+</body>
+</html>
